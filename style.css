@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+}
+
+p {
+    padding: 25px;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+#icon {
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+#voltar:hover, #play:hover, #proxima:hover{
+    opacity: 0.5;
+}
+
+#voltar, #play, #proxima {
+    width: 3.5%;
+    padding: 2%;
+}
