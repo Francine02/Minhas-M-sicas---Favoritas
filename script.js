@@ -4,7 +4,7 @@ const skip = document.getElementById('proxima');
 const musica = document.getElementById('musica');
 const nome = document.getElementById('titulo');
 
-const playlist = 5;
+const playlist = 6;
 let quantidadeMusicas = 1;
 let musicaTocando = false;
 
@@ -13,7 +13,8 @@ const nomesMusicas = [
     'Rise - League of Legends',
     'STAR WALKIN - Lil Nas X',
     'Tatto - Loreen',
-    'Greedy - Tate McRae'
+    'Greedy - Tate McRae',
+    'Gods - NewJeans'
 ];
 
 function tocarMusica () {
